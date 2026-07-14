@@ -9,20 +9,47 @@
   body { font-family: -apple-system, "Segoe UI", Roboto, sans-serif; max-width: 720px;
          margin: 0 auto; padding: 48px 24px; line-height: 1.7; }
   h1 { font-size: 1.6rem; }
+  h2 { font-size: 1.05rem; margin-top: 2.2em; }
   a { color: #2563eb; }
+  .yt-attrib { display: flex; align-items: center; gap: 12px; margin: 28px 0;
+               padding: 16px 18px; border: 1px solid rgba(128,128,128,.35);
+               border-radius: 10px; }
+  .yt-attrib svg { flex: none; }
+  .yt-attrib p { margin: 0; font-size: .92rem; }
   footer { margin-top: 48px; font-size: .85rem; opacity: .7; }
 </style>
 </head>
 <body>
 <h1>MMU — Multi-Media Uploader</h1>
+
 <p>MMU is a personal desktop tool that publishes short-form videos to the
 owner's own social media accounts (YouTube, TikTok, Instagram, Facebook)
 through each platform's official API. It runs locally on the owner's computer;
-it is not a hosted service and is not offered to third parties.</p>
+it is not a hosted service, is not distributed, and is not offered to third
+parties.</p>
+
+<div class="yt-attrib">
+  <!-- YouTube logo, official mark and colour (#FF0000), unmodified -->
+  <svg width="72" height="50" viewBox="0 0 159 110" xmlns="http://www.w3.org/2000/svg"
+       role="img" aria-label="YouTube">
+    <path fill="#FF0000" d="M154 17.5c-1.82-6.73-7.07-12-13.8-13.8C128.2 0 79 0 79 0S29.8 0 17.5 3.7C10.8 5.5 5.5 10.8 3.7 17.5 0 29.8 0 55 0 55s0 25.2 3.7 37.5c1.8 6.7 7.1 12 13.8 13.8C29.8 110 79 110 79 110s49.2 0 61.5-3.7c6.7-1.8 12-7.1 13.8-13.8C158 80.2 158 55 158 55s0-25.2-4-37.5z"/>
+    <path fill="#FFFFFF" d="M63 78.5 105 55 63 31.5z"/>
+  </svg>
+  <p><strong>MMU uses YouTube API Services.</strong><br>
+  By using MMU you agree to the
+  <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>.
+  Google's privacy practices are described in the
+  <a href="http://www.google.com/policies/privacy">Google Privacy Policy</a>.
+  You can revoke MMU's access to your YouTube data at any time at
+  <a href="https://myaccount.google.com/permissions">https://myaccount.google.com/permissions</a>.</p>
+</div>
+
+<h2>Legal</h2>
 <ul>
   <li><a href="/privacy.html">Privacy Policy</a></li>
   <li><a href="/terms.html">Terms of Service</a></li>
 </ul>
+
 <footer>Contact: tangzy09@gmail.com</footer>
 </body>
 </html>
